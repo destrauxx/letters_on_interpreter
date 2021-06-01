@@ -5,10 +5,10 @@ def field(n):
             rtr[i-1] = '_'
             rtr[n-i] = '_'
         if i > (n-2) / 2:
-            rtr[int((n-1)/2)] = 'X'
+            rtr[int((n-1)/2)] = 'Y'
         else:
-            rtr[n-i-1] = 'X'
-            rtr[i] = 'X'
+            rtr[n-i-1] = 'Y'
+            rtr[i] = 'Y'
         print(rtr)
     
 field(9)
