@@ -4,7 +4,7 @@ def field(n):
         if i != 0:
             rtr[i-1] = '_'
             rtr[n-i] = '_'
-        if i > 2:
+        if i > i-1 / 2:
             rtr[n-i-1] = 'W'
             rtr[i] = 'W'
         rtr[n-1] = 'W'
