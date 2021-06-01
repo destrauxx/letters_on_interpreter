@@ -1,0 +1,14 @@
+def field(n):
+    rtr = ['_'] * n
+    for i in range(n):
+        if i != 0:
+            rtr[i-1] = '_'
+            rtr[n-i] = '_'
+        if i > (n-2) / 2:
+            rtr[int((n-1)/2)] = 'X'
+        else:
+            rtr[n-i-1] = 'X'
+            rtr[i] = 'X'
+        print(rtr)
+    
+field(9)
