@@ -3,9 +3,9 @@ def field(n):
     for r in range(n):
         rtr = ['_'] * n
         if r == 0 or r == n-1:
-            rtr = ['X'] * n
+            rtr = ['Z'] * n
         else:
-            rtr[n-r-1] = 'X'
+            rtr[n-r-1] = 'Z'
             rtr[n-r] = '_'
         print(rtr)
 
